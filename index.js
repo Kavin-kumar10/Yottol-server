@@ -19,7 +19,7 @@ app.get('/',(req,res)=>{
 app.post('/',async (req,res)=>{
     console.log(req.body);
     await sentEmail(req.body.Email,req.body.Otp);
-    res.redirect('http://localhost:3000/Login/otpVerify');
+    res.redirect('https://kavin-kumar10.github.io/Yottol-client/#/Login/otpVerify');
 })
 
 
